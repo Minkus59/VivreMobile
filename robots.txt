@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://vivremobile-armentieres.fr/sitemap.xml

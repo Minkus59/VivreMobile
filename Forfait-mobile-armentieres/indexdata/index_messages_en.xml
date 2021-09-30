@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+
+  <data name="en_project_title"><![CDATA[Vivre Mobile - Armentières]]></data>
+
+
+
+  <data name="en_pano14_title"><![CDATA[Vivre Mobile - Armentières]]></data>
+
+
+
+
+
+
+  <data name="en_controlBar_classiczoomInTip"><![CDATA[Zoom +]]></data>
+  <data name="en_controlBar_classiczoomOutTip"><![CDATA[Zoom -]]></data>
+  <data name="en_controlBar_classicopenFsTip"><![CDATA[Plein écran]]></data>
+  <data name="en_controlBar_classiccloseFsTip"><![CDATA[Quitter le plein écran]]></data>
+  <data name="en_controlBar_classicautorotateOnTip"><![CDATA[Démarrer l'Autorotation]]></data>
+  <data name="en_controlBar_classicautorotateOffTip"><![CDATA[Arrêter l'Autorotation]]></data>
+  <data name="en_controlBar_classicdisplayControlsTip"><![CDATA[Afficher les contrôles]]></data>
+  <data name="en_controlBar_classichideControlsTip"><![CDATA[Masquer les contrôles]]></data>
+
+
+
+</krpano>

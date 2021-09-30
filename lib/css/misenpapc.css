@@ -1,0 +1,638 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+body {
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: normal;
+scrollbar-shadow-color: #ffffff;
+scrollbar-highlight-color: #ffffff;
+scrollbar-3dlight-color: #ffffff;  
+scrollbar-darkshadow-color: #ffffff;  
+scrollbar-track-color: #333333;
+scrollbar-arrow-color: #cccccc;
+scrollbar-face-color: #2891cb;
+margin: 0px;
+padding: 0px; 
+}
+
+#NeuroSoft img {
+position: fixed;
+bottom: 0px;
+right: 0px;
+width: 80px;
+}
+
+#Center {
+width: 1200px;
+min-width: 1200px;
+} 
+
+/*---------HEADER -------------------------------------------------*/
+
+HEADER {
+width: 100%;  
+min-width: 1200px;
+height: 150px;
+background-image: url("/lib/img/fond_logo_blanc.jpg");
+background-repeat: no-repeat;
+transition: all 500ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;
+}
+
+HEADER img {
+margin-top: 20px;
+}
+
+/*---------NAV -------------------------------------------------*/
+
+.fixedTop {
+position: fixed;
+top: 0px;
+}
+
+.fixed {
+position: fixed;
+bottom: 0px;
+}
+
+.BoutonFix {
+background-image:url("/lib/img/versbas.png");
+background-repeat: no-repeat;
+background-position: top -20px;
+}
+
+.relative {
+background-image:url("/lib/img/vershaut.png");
+background-repeat: no-repeat;
+background-position: top -20px;
+}
+
+.relativ {
+position: relative;
+}
+
+nav {
+z-index: 1;
+width: 100%; 
+min-width: 1200px;
+height: 30px;
+padding: 10px 0px 10px 0px;
+background-image: linear-gradient(#bababa 0px, #FFFFFF 10px, #FFFFFF);
+background-image: -webkit-linear-gradient(#bababa 0px, #FFFFFF 10px, #FFFFFF);
+background-image: -moz-linear-gradient(#bababa 0px, #FFFFFF 10px, #FFFFFF);
+background-image: -o-linear-gradient(#bababa 0px, #FFFFFF 10px, #FFFFFF);
+}
+
+nav ul { 
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+}
+
+nav li {
+display: inline-block;
+font-weight: bold;
+transition: all 500ms;
+padding: 0px 30px 0px 30px;
+border-bottom: 2px solid #FFFFFF;
+}
+
+nav li:hover {
+display: inline-block;
+font-weight: bold;
+transition: all 500ms;
+padding: 0px 30px 0px 30px;
+border-bottom: 2px solid #2891cb;
+}
+
+nav a {
+text-transform: uppercase;
+font-size: 23px;
+color: #2891cb;
+text-decoration: none;
+font-weight: bold;  
+transition: all 500ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;  
+}
+
+nav a:hover {
+font-size: 23px;
+color: #111111;
+text-decoration: none;
+font-weight: bold;
+}
+
+/*---------Contenu -------------------------------------------------*/
+
+#Accueil ,#Telephone, #Deblocage, #Abonnement, #Reparation, #Accessoire, #Contact, #Plandacces, #Mentions-Legales {
+width: 100%; 
+min-width: 1200px;
+min-height: 600px;
+}
+
+#Accueil img {
+margin: 10px;
+}
+
+.ContentBlanc {
+background-color: #FFFFFF;
+color: #333333;
+overflow: auto;
+padding: 60px 0px 30px 0px;
+}
+
+.contact {
+background-color: #FFFFFF;
+color: #333333;
+overflow: auto;
+padding: 60px 0px 30px 0px;
+}
+
+.ContentCarte {
+background-color: #2891cb;
+background-position: center 117px;
+background-image: url("/lib/img/carte.jpg");
+background-repeat: no-repeat;
+padding-top: 60px;
+height: 350px;
+}
+
+.ContentBleu {
+background-color: #2891cb;
+color: #FFFFFF;
+overflow: auto;
+padding: 60px 0px 30px 0px;
+}
+
+.deblocage {
+background-color: #FFFFFF;
+color: #333333;
+padding: 60px 0px 30px 0px;
+overflow: auto;
+}
+
+.accessoires {
+background-color: #2891cb;
+background-image:url("/lib/img/cable-mobiles.png");
+background-repeat: no-repeat;  
+background-position: top 60px;
+color: #FFFFFF;
+padding: 60px 0px 30px 0px;
+overflow: auto;
+}
+
+.telephone {
+background-color: #2891cb;
+color: #FFFFFF;
+padding: 60px 0px 30px 0px;
+overflow: auto;
+}
+
+/*---------Article-------------------------------------------------*/
+
+article {
+float: left;
+width: 1180px;
+font-size: 17px;
+padding: 60px 0px 30px 0px;
+min-height: 350px;
+}
+
+article.right {
+float: right;
+text-align: left;
+width: 640px;
+font-size: 17px;
+padding: 40px;
+min-height: 350px;
+background-image:url("/lib/img/ligne-blanche.png");
+background-repeat: no-repeat;
+background-position: top 0px right 0px;
+}
+
+article.left {
+float: left;
+text-align: left;
+width: 640px;
+font-size: 17px;
+padding: 40px;
+min-height: 350px;
+background-image:url("/lib/img/ligne-bleu.png");
+background-repeat: no-repeat;
+background-position: top 0px right 0px;
+}
+
+article li {
+list-style-type: none;
+margin-left: 20px;
+}
+
+article a {
+color: #d6081c;
+text-decoration: none;     
+transition: all 500ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;  
+}
+
+article a:hover {
+color: #d6081c;
+}
+
+article img.center {
+width: 100%;
+}  
+
+article img.droite {
+float: right;
+margin: 15px;
+vertical-align: top; 
+}
+
+article img.gauche {
+float: left;
+margin: 15px;
+vertical-align: top; 
+}
+
+#Photo {
+z-index: 2;
+width: 480px;
+float: left;
+}
+
+#Photo img {
+display: inline-block;
+}
+
+/*---------FOOTER -------------------------------------------------*/       
+    
+footer {
+z-index: 3;
+width: 100%;      
+min-width: 1200px;
+min-height: 150px;
+color: #FFFFFF;  
+background-image: linear-gradient(#FFFFFF, #FFFFFF 30px, #2891cb 30px,#2891cb);
+background-image: -moz-linear-gradient(#FFFFFF, #FFFFFF 30px, #2891cb 30px,#2891cb);
+background-image: -o-linear-gradient(#FFFFFF, #FFFFFF 30px, #2891cb 30px,#2891cb);
+background-image: -webkit-linear-gradient(#FFFFFF, #FFFFFF 30px, #2891cb 30px,#2891cb);
+}
+
+#BoutonBas {
+width: 60px;
+height: 60px;
+}
+
+#Cadre {
+text-align: center;
+display: inline-block;
+width: 330px;
+min-height: 80px;
+vertical-align: top;
+text-align: center;
+color: #333333;
+padding: 5px 0px 30px 0px;
+}
+
+#Cadre img {
+margin-top: 0px;
+margin-left: 0px;
+max-width: 330px;
+max-height: 80px;
+padding-top: 0px;
+}
+
+#Cadre li {
+list-style-type: none;
+transition: all 500ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;
+}
+
+#Cadre a {
+text-decoration: none;
+color: #333333; 
+font-size: 16px;    
+transition: all 500ms;
+-webkit-transition: all 500ms;
+-moz-transition: all 500ms;
+-o-transition: all 500ms;  
+}
+
+#Cadre a:hover {
+text-decoration: none;
+color: #FFFFFF; 
+font-size: 16px;
+}
+
+footer h1 { 
+text-transform: uppercase;
+font-size: 29px;
+font-weight: bold;
+color: #FFFFFF;
+margin: 0px;
+border-bottom: 1px dashed #d6081c;
+}
+
+/*---------FORMULAIRE -------------------------------------------------*/
+
+input[type="submit"] {
+text-align: center;
+color: #FFFFFF;
+width: 410px;
+height: 33px;
+background-color: #2891cb;
+-webkit-box-shadow: 0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+-moz-box-shadow:    0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+-o-box-shadow:    0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+box-shadow:         0px 0px 10px 0px rgba(51, 51, 51, 0.75);
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+}
+
+#Retour {
+float: left;
+width: 1200px;
+height: 40px;
+}
+
+#Plandacces input[type="button"] {
+width: 40px;
+height: 40px;
+background-image:url("/lib/img/hautbleu.png");
+background-repeat: no-repeat;
+border: 0px;
+background-color: #2891cb;
+float: right;
+}
+
+#Telephone input[type="button"] {
+width: 40px;
+height: 40px;
+background-image:url("/lib/img/hautbleu.png");
+background-repeat: no-repeat;
+border: 0px;
+background-color: #2891cb; 
+float: right;
+}
+
+#Reparation input[type="button"] {
+width: 40px;
+height: 40px;
+background-image:url("/lib/img/hautbleu.png");
+background-repeat: no-repeat;
+border: 0px;
+background-color: #2891cb; 
+float: right;
+}
+
+#Accessoire input[type="button"] {
+width: 40px;
+height: 40px;
+background-image:url("/lib/img/hautbleu.png");
+background-repeat: no-repeat;
+border: 0px;
+background-color: #2891cb; 
+float: right;
+}
+
+#Abonnement input[type="button"] {
+width: 40px;
+height: 40px;
+background-image:url("/lib/img/hautblanc.png");
+background-repeat: no-repeat;
+border: 0px;
+background-color: #FFFFFF; 
+float: right;
+}
+
+#Deblocage input[type="button"] {
+width: 40px;
+height: 40px;
+background-image:url("/lib/img/hautblanc.png");
+background-repeat: no-repeat;
+border: 0px;
+background-color: #FFFFFF; 
+float: right;
+}
+
+#Contact input[type="button"] {
+width: 40px;
+height: 40px;
+background-image:url("/lib/img/hautblanc.png");
+background-repeat: no-repeat;
+border: 0px;
+background-color: #FFFFFF; 
+float: right;
+}
+
+#Mentions-Legales input[type="button"] {
+width: 40px;
+height: 40px;
+background-image:url("/lib/img/hautblanc.png");
+background-repeat: no-repeat;
+border: 0px;
+background-color: #FFFFFF; 
+float: right;
+}
+
+#Accueil input[type="button"] {
+width: 40px;
+height: 40px;
+background-image:url("/lib/img/hautblanc.png");
+background-repeat: no-repeat;
+border: 0px;
+background-color: #FFFFFF; 
+float: right;
+}
+
+textarea {
+width: 400px;
+height: 150px;
+padding: 3px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+}
+
+input[type="text"] {
+width: 400px;
+padding: 3px;
+height: 20px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+text-align: left;
+}
+
+input[type="email"] {
+width: 400px;
+padding: 3px;
+height: 20px;
+background-color: white;
+border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-khtml-border-radius: 5px 5px 5px 5px;
+-o-border-radius: 5px 5px 5px 5px;
+text-align: left;
+}
+
+/*---------------------------------------------------------------------*/
+
+.ContentCarte a {
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.ContentCarte a:hover {
+text-decoration: none;
+color: #d6081c;
+}
+
+h1 {
+text-transform: uppercase;
+font-size: 41px;
+font-weight: bold;
+color: #111111;
+margin: 0px;
+padding: 0px;
+border-bottom: 2px solid #d6081c;
+}
+
+h2 { 
+font-size: 31px;
+font-weight: bold;
+color: #333333;
+margin: 0px;
+padding: 0px;
+}
+
+.up {
+color: #d6081c;
+}
+
+.orange {
+font-size: 19px;
+color: #FF6600; 
+font-weight: bold;
+}
+
+.orange1 {
+font-size: 31px;
+color: #FF6600; 
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.orange2 {
+font-size: 41px;
+color: #FF6600;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.orange3 {
+font-size: 150px;
+color: #FF6600;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.orange4 {
+font-size: 90px;
+color: #FF6600;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.blanc {
+font-size: 19px;
+color: #FFFFFF;
+font-weight: bold;
+}
+
+.blanc1 {
+font-size: 31px;
+color: #FFFFFF;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.blanc2 {
+font-size: 41px;
+color: #FFFFFF;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.blanc3 {
+font-size: 150px;
+color: #d6081c;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+table {
+padding: 5px;
+width: 400px;
+}
+
+td {
+padding: 0px 5px 0px 5px;
+}
+
+th {
+padding: 0px 5px 0px 5px;
+color: #d6081c;
+text-align: left;
+}
+
+#carte {
+background-color: white;
+width: 100%;
+height: 650px;
+}
+
+/*- Visite Virtuelle --------------------------------------------------------------------*/
+
+div#container {
+z-index: 1;
+width: 100%; 
+min-width: 1200px;
+height: 550px;
+margin: 0 auto;
+margin-top: 50px;
+}
+
+div#tourDIV { 
+height: 100%;
+position:relative;
+overflow:hidden;
+}
+
+div#panoDIV {
+height: 100%; 
+position:relative;
+overflow:hidden;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+}

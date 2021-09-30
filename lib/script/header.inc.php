@@ -1,0 +1,1 @@
+<a href="<?php echo $Home; ?>"><img src="<?php echo $Home; ?>lib/img/vivre_mobile_armentieres.png"></a>
